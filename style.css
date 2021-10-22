@@ -1,0 +1,61 @@
+.container-grid {
+    width: 80%;
+    height: 670px;
+
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    background-color: red;
+}
+
+.titulo {
+    height: 140px;
+    width: 440px;
+
+    background-color: blue;
+}
+
+.grupo {
+    width: 100%;
+    
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    background-color: chartreuse;
+}
+
+.card {
+    width: 260px;
+    height: 315px;
+
+    /* background-color: magenta; */
+
+    background-image: url(img/disco-de-freio-fremax-4-furos-solido01.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.oferta { 
+    background-color: yellow;
+    color: tomato;
+
+    height: 50px;
+    width: 60px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    /* padding: 15px; */
+}
+
+.conjunto {
+    position: relative;
+}
